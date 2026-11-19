@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "3", //  required by Discord API, not shown in the client
         state: "24/7",     // this is what people actually see
-        type: 3,               // Custom
+        type: 4,               // Custom
       },
     ],
   },
@@ -68,9 +68,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
+      pending: "#FF0000",
       approved: "#00FF00",
-      denied: "#FF0000",
+      denied: "#0000FF",
     },
 
     // How long users must wait before submitting another application (hours).
